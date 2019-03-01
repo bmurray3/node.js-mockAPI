@@ -1,0 +1,11 @@
+{    "compositionName": "String",
+    "compositionDescription": "String",
+    "compositionType": "String",
+    "compositionScript": [],
+    "compositionCreated": "{type: Date, default: Date.now}",
+    "compositionUpdated": "{type: Date}",
+    "compositionLastUpdatedBy": "String",
+    "compositionState": [],
+    "compositionTagReference": [],
+    "compositionImageReference": []
+}

@@ -1,0 +1,12 @@
+{
+    "containmentName": "String",
+    "containmentDescription": "String",
+    "containmentType": "String",
+    "containmentScript": "String",
+    "containmentCreated": "{type: Date, default: Date.now}",
+    "containmentUpdated": "{type: Date}",
+    "containmentLastUpdatedBy": "String",
+    "containmentState": [],
+    "containmentTagReference": [],
+    "containmentNetworkReference": []
+}

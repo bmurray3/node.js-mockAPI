@@ -1,0 +1,14 @@
+{
+    "accountName": "String",
+    "accountDescription": "String",
+    "accountSecretName": "String",
+    "accountSecretData": "String",
+    "accountType": "String",
+    "accountExpiration": "{type: Date}",
+    "accountCreated": "{type: Date, default: Date.now}",
+    "accountUpdated": "{type: Date}",
+    "accountLastUpdatedBy": "String",
+    "accountState": [],
+    "accountProviderReference": [],
+    "accountTagReference": []
+}

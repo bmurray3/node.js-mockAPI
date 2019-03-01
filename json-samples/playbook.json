@@ -1,0 +1,12 @@
+{
+    "playbookName": "String",
+    "playbookDescription": "String",
+    "playbookType": "String",
+    "playbookScript": [],
+    "playbookCreated": "{type: Date, default: Date.now}",
+    "playbookUpdated": "{type: Date}",
+    "playbookLastUpdatedBy": "String",
+    "playbookState": [],
+    "playbookTagReference": [],
+    "playbookCompositionReference": []
+}

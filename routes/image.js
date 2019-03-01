@@ -9,7 +9,7 @@ router.get('/build', (err, res, next) => {
 
 //Query specific image
 router.get('/build/:imageid/status', (err, res, next) => {
-    image.find({}).then(data => res.json(data)).catch(next)
+    image.findById(req.params.imageid).then(data => res.json(data)).catch(next)
 });
 
 //Create image release
@@ -19,7 +19,7 @@ router.post('/build/create', (req, res, next) => {
 
 //Update specific image status
 router.post('/build/:imageid/update', (req, res, next) => {
-    image.create(req.body).then(data => res.json(data)).catch(next);
+    image.findByIdAndUpdate(req.imageid.update).then(data => res.json(data)).catch(next);
 });
 
 module.exports = router;

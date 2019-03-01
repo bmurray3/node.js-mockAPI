@@ -1,0 +1,10 @@
+{
+    "providerName": "String",
+    "providerDescription": "String",
+    "providerType": "String",
+    "providerCreated": "{type: Date, default: Date.now}",
+    "providerUpdated": "{type: Date}",
+    "providerLastUpdatedBy": "String",
+    "providerState": [],
+    "providerTagReference": []
+}

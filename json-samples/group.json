@@ -1,0 +1,14 @@
+{
+    "groupName": "String",
+    "groupDescription": "String",
+    "groupType": "String",
+    "groupDomain": "String",
+    "groupCreated": "{type: Date, default: Date.now}",
+    "groupUpdated": "{type: Date}",
+    "groupLastUpdatedBy": "String",
+    "groupState": [],
+    "groupTagReference": [],
+    "groupSkuReference": [],
+    "groupBuildReference": [],
+    "groupComponentReference": []
+}

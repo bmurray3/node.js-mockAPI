@@ -1,0 +1,12 @@
+{
+    "componentName": "String",
+    "componentDescription": "String",
+    "componentType": "String",
+    "componentScript": [],
+    "componentCreated": "{type: Date, default: Date.now}",
+    "componentUpdated": "{type: Date}",
+    "componentLastUpdatedBy": "String",
+    "componentState": [],
+    "componentTagReference": [],
+    "componentCompositionReference": []
+}

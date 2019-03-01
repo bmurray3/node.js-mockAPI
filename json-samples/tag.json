@@ -1,0 +1,9 @@
+{
+    "tagName": "String",
+    "tagDescription": "String",
+    "tagType": "String",
+    "tagCreated": "{type: Date, default: Date.now}",
+    "tagUpdated": "{type: Date}",
+    "tagLastUpdatedBy": "String",
+    "tagState": []
+}

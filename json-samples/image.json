@@ -1,0 +1,15 @@
+{
+    "imageName": "String",
+    "imageDescription": "String",
+    "imageType": "String",
+    "imageURL": "String",
+    "imageVersion": "String",
+    "imageOS": "String",
+    "imageExpiration": "{type: Date}",
+    "imageCreated": "{type: Date, default: Date.now}",
+    "imageUpdated": "{type: Date}",
+    "imageLastUpdatedBy": "String",
+    "imageState": [],
+    "imageTagReference": [],
+    "imageRegionReference": []
+}

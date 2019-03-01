@@ -1,0 +1,11 @@
+{
+    "regionName": "String",
+    "regionDescription": "String",
+    "regionType": "String",
+    "regionCreated": "{type: Date, default: Date.now}",
+    "regionUpdated": "{type: Date}",
+    "regionLastUpdatedBy": "String",
+    "regionState": [],
+    "regionTagReference": [],
+    "regionProviderReference": []
+}

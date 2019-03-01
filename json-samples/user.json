@@ -1,0 +1,12 @@
+{
+    "userName": "String",
+    "userDescription": "String",
+    "userType": "String",
+    "userDomain": "String",
+    "userCreated": "{type: Date, default: Date.now}",
+    "userUpdated": "{type: Date}",
+    "userLastUpdatedBy": "String",
+    "userState": [],
+    "userTagReference": [],
+    "userGroupReference": []
+}

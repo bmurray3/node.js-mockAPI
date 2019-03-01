@@ -1,0 +1,11 @@
+{
+    "skuName": "String",
+    "skuDescription": "String",
+    "skuType": "String",
+    "skuExpiration": "{type: Date}",
+    "skuCreated": "{type: Date, default: Date.now}",
+    "skuUpdated": "{type: Date}",
+    "skuLastUpdatedBy": "String",
+    "skuState": [],
+    "skuTagReference": []
+}

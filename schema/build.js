@@ -10,7 +10,7 @@ const buildSchema = new Schema({
     buildLastUpdatedBy: {type: String},
     buildState: {type: Array},
     buildTagReference: {type: Array},
-    buildSkureference: {type: Array},
+    buildSkuReference: {type: Array},
 })
 
 const build = mongoose.model('build', buildSchema);

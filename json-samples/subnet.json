@@ -1,0 +1,12 @@
+{
+    "subnetName": "String",
+    "subnetDescription": "String",
+    "subnetType": "String",
+    "subnetScript": [],
+    "subnetCreated": "{type: Date, default: Date.now}",
+    "subnetUpdated": "{type: Date}",
+    "subnetLastUpdatedBy": "String",
+    "subnetState": [],
+    "subnetTagReference": [],
+    "subnetNetworkReference": []
+}

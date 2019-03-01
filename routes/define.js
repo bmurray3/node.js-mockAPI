@@ -67,6 +67,16 @@ router.post('/provider/:providerid/update', (req, res, next) => {
     provider.create(req.body).then(data => res.json(data)).catch(next)
 });
 
+//Get all accounts
+router.post('/account', (req, res, next) => {
+    account.create(req.body).then(data => res.json(data)).catch(next)
+});
+
+//Get single account
+router.post('/account/:accountid/status', (req, res, next) => {
+    account.create(req.body).then(data => res.json(data)).catch(next)
+});
+
 //Define account
 router.post('/account/create', (req, res, next) => {
     account.create(req.body).then(data => res.json(data)).catch(next)

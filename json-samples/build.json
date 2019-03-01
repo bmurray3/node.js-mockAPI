@@ -1,0 +1,12 @@
+{
+    "buildName": "String",
+    "buildDescription": "String",
+    "buildType": "String",
+    "buildExpiration": "{type: Date}",
+    "buildCreated": "{type: Date}",
+    "buildUpdated": "{type: Date}",
+    "buildLastUpdatedBy": "String",
+    "buildState": [],
+    "buildTagReference": [],
+    "buildSkuReference": []
+}

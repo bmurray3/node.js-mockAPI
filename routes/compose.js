@@ -11,22 +11,26 @@ router.get('/sku', (err, res, next) => {
 
 //Query specific SKU
 router.get('/sku/:skuid/status', (err, res, next) => {
-    sku.find({}).then(data => res.json(data)).catch(next)
+    sku.findById(req.params.skuid).then(data => res.json(data)).catch(next)
 });
 
 //Initiate new build based on specific SKU
 router.post('/sku/:skuid/build/create', (req, res, next) => {
-    sku.create(req.body).then(data => res.json(data)).catch(next)
+    sku.find({"_id": req.params.skuid}).then(data => res.json(data)).catch(next);
+    //ok so how do I add my own json attributes to the body now? 
+    build.create(req.body).then(data => res.json(data)).catch(next)
 });
 
 //Query all builds associated with specific SKU
 router.get('/sku/:skuid/build', (err, res, next) => {
-    build.find({}).then(data => res.json(data)).catch(next)
+    skuID = req.params.skuid;
+    build.find({"buildSkuReference": skuID}).then(data => res.json(data)).catch(next)
 });
 
 //Terminate SKU build
 router.post('/sku/:skuid/build/:buildid', (req, res, next) => {
-    build.find({}).then(data => res.json(data)).catch(next)
+    //I don't want to do this. I want to change status instead... Fix once it is pub/sub
+    build.findByIdAndDelete(req.params.buildid).then(data => res.json(data)).catch(next)
 });
 
 //Query all components
@@ -36,7 +40,7 @@ router.get('/component', (err, res, next) => {
 
 //Query specific component 
 router.get('/component/:componentid/status', (err, res, next) => {
-    component.find({}).then(data => res.json(data)).catch(next)
+    component.findById(req.params.componentid).then(data => res.json(data)).catch(next)
 });
 
 module.exports = router;
